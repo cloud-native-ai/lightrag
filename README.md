@@ -233,6 +233,14 @@ Starting from version v1.5, LightRAG has officially introduced analysis and retr
 - **Cross-Modal Entity & Relation Mapping:** It achieves cross-modal entity extraction and relationship mapping within a unified framework, resulting in seamless indexing and querying.
 - **Enhanced Application Scenarios:** The brand-new multimodal processing pipeline significantly improves RAG quality for documents rich in multimodal content, such as operation manuals and academic papers.
 
+### Feature Registry
+
+LightRAG maintains a structured feature registry tracking all functional and non-functional capabilities. See [`.specify/memory/features.md`](.specify/memory/features.md) for the full index.
+
+**Functional Features (Implemented):** Document Ingestion & Parsing, Knowledge Graph Construction & Storage, RAG Query & Retrieval, Multimodal Document Processing, Text Chunking Strategies, REST API Server, LLM Provider Integration, Interactive Setup Wizard, Containerization & Deployment, Evaluation & Tracing, CLI Administration Tools.
+
+**Non-Functional Features:** Code Quality & Linting (Implemented), Test Coverage Reporting (Draft), Dependency Security Scanning (Draft), Performance Benchmarking (Draft), Contributor Guide & Changelog (Draft), API Versioning & Deprecation Policy (Draft), Structured Logging & Metrics (Draft), Kubernetes Deployment Support (Draft).
+
 ### LightRAG API Server
 
 The LightRAG server offers not only a web-based UI for exploring LightRAG functionalities but also a comprehensive REST API. For more information about the LightRAG server, please refer to [LightRAG Server](./docs/LightRAG-API-Server.md).
